@@ -1,5 +1,5 @@
 %define name mono-zeroconf
-%define version 0.7.5
+%define version 0.7.6
 %define release %mkrel 1
 
 Summary: Cross platform Zero Configuration Networking library 
@@ -62,6 +62,7 @@ fi
 %_prefix/lib/%name
 %_prefix/lib/mono/gac/Mono.Zeroconf
 %_prefix/lib/mono/gac/policy.1.0.Mono.Zeroconf
+%_prefix/lib/mono/gac/policy.2.0.Mono.Zeroconf
 %_prefix/lib/mono/%name
 %_datadir/pkgconfig/mono-zeroconf.pc
 
