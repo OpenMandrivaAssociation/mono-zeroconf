@@ -1,12 +1,12 @@
 %define name mono-zeroconf
-%define version 0.7.6
-%define release %mkrel 2
+%define version 0.8.0
+%define release %mkrel 1
 
 Summary: Cross platform Zero Configuration Networking library 
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: %{name}-%{version}.tar.bz2
+Source0: http://download.banshee-project.org/mono-zeroconf/%{name}-%{version}.tar.bz2
 License: BSD
 Group: System/Libraries
 Url: http://mono-project.com/Mono_Zeroconf
@@ -63,6 +63,7 @@ fi
 %_prefix/lib/mono/gac/Mono.Zeroconf
 %_prefix/lib/mono/gac/policy.1.0.Mono.Zeroconf
 %_prefix/lib/mono/gac/policy.2.0.Mono.Zeroconf
+%_prefix/lib/mono/gac/policy.3.0.Mono.Zeroconf
 %_prefix/lib/mono/%name
 %_datadir/pkgconfig/mono-zeroconf.pc
 
