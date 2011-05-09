@@ -1,6 +1,6 @@
 %define name mono-zeroconf
 %define version 0.9.0
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Cross platform Zero Configuration Networking library 
 Name: %{name}
@@ -28,6 +28,8 @@ This package was built with support vor Avahi only.
 %package 1.0
 Summary: Cross platform Zero Configuration Networking library 
 Group: Development/Other
+Conflicts: %name < 0.9.0-5
+Requires: %name = %version
 
 %description 1.0
 Mono.Zeroconf is a cross platform Zero Configuration Networking library for
@@ -43,6 +45,8 @@ This package contains a compatibility API for older applications.
 %package 2.0
 Summary: Cross platform Zero Configuration Networking library 
 Group: Development/Other
+Conflicts: %name < 0.9.0-5
+Requires: %name = %version
 
 %description 2.0
 Mono.Zeroconf is a cross platform Zero Configuration Networking library for
@@ -58,6 +62,8 @@ This package contains a compatibility API for older applications.
 %package 3.0
 Summary: Cross platform Zero Configuration Networking library 
 Group: Development/Other
+Conflicts: %name < 0.9.0-5
+Requires: %name = %version
 
 %description 3.0
 Mono.Zeroconf is a cross platform Zero Configuration Networking library for
@@ -73,6 +79,8 @@ This package contains a compatibility API for older applications.
 %package 4.0
 Summary: Cross platform Zero Configuration Networking library 
 Group: Development/Other
+Conflicts: %name < 0.9.0-5
+Requires: %name = %version
 
 %description 4.0
 Mono.Zeroconf is a cross platform Zero Configuration Networking library for
