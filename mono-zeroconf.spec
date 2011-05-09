@@ -1,6 +1,6 @@
 %define name mono-zeroconf
 %define version 0.9.0
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary: Cross platform Zero Configuration Networking library 
 Name: %{name}
@@ -24,6 +24,66 @@ operating systems supported by Mono and both the Avahi and
 Bonjour/mDNSResponder transports.
 
 This package was built with support vor Avahi only.
+
+%package 1.0
+Summary: Cross platform Zero Configuration Networking library 
+Group: Development/Other
+
+%description 1.0
+Mono.Zeroconf is a cross platform Zero Configuration Networking library for
+Mono and .NET. It provides a unified API for performing the most common
+zeroconf operations on a variety of platforms and subsystems: all the
+operating systems supported by Mono and both the Avahi and
+Bonjour/mDNSResponder transports.
+
+This package was built with support vor Avahi only.
+
+This package contains a compatibility API for older applications.
+
+%package 2.0
+Summary: Cross platform Zero Configuration Networking library 
+Group: Development/Other
+
+%description 2.0
+Mono.Zeroconf is a cross platform Zero Configuration Networking library for
+Mono and .NET. It provides a unified API for performing the most common
+zeroconf operations on a variety of platforms and subsystems: all the
+operating systems supported by Mono and both the Avahi and
+Bonjour/mDNSResponder transports.
+
+This package was built with support vor Avahi only.
+
+This package contains a compatibility API for older applications.
+
+%package 3.0
+Summary: Cross platform Zero Configuration Networking library 
+Group: Development/Other
+
+%description 3.0
+Mono.Zeroconf is a cross platform Zero Configuration Networking library for
+Mono and .NET. It provides a unified API for performing the most common
+zeroconf operations on a variety of platforms and subsystems: all the
+operating systems supported by Mono and both the Avahi and
+Bonjour/mDNSResponder transports.
+
+This package was built with support vor Avahi only.
+
+This package contains a compatibility API for older applications.
+
+%package 4.0
+Summary: Cross platform Zero Configuration Networking library 
+Group: Development/Other
+
+%description 4.0
+Mono.Zeroconf is a cross platform Zero Configuration Networking library for
+Mono and .NET. It provides a unified API for performing the most common
+zeroconf operations on a variety of platforms and subsystems: all the
+operating systems supported by Mono and both the Avahi and
+Bonjour/mDNSResponder transports.
+
+This package was built with support vor Avahi only.
+
+This package contains a compatibility API for older applications.
 
 %package devel
 Summary: Development files for %name
@@ -76,11 +136,23 @@ fi
 %_bindir/mzclient
 %_prefix/lib/%name
 %_prefix/lib/mono/gac/Mono.Zeroconf
-%_prefix/lib/mono/gac/policy.1.0.Mono.Zeroconf
-%_prefix/lib/mono/gac/policy.2.0.Mono.Zeroconf
-%_prefix/lib/mono/gac/policy.3.0.Mono.Zeroconf
-%_prefix/lib/mono/gac/policy.4.0.Mono.Zeroconf
 %_prefix/lib/mono/%name
+
+%files 1.0
+%defattr(-,root,root)
+%_prefix/lib/mono/gac/policy.1.0.Mono.Zeroconf
+
+%files 2.0
+%defattr(-,root,root)
+%_prefix/lib/mono/gac/policy.2.0.Mono.Zeroconf
+
+%files 3.0
+%defattr(-,root,root)
+%_prefix/lib/mono/gac/policy.3.0.Mono.Zeroconf
+
+%files 4.0
+%defattr(-,root,root)
+%_prefix/lib/mono/gac/policy.4.0.Mono.Zeroconf
 
 %files devel
 %defattr(-,root,root)
