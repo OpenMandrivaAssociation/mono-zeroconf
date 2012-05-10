@@ -1,6 +1,6 @@
 %define name mono-zeroconf
 %define version 0.9.0
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: Cross platform Zero Configuration Networking library 
 Name: %{name}
