@@ -1,7 +1,7 @@
 Summary:	Cross platform Zero Configuration Networking library 
 Name:		mono-zeroconf
 Version:	0.9.0
-Release:	16
+Release:	17
 License:	BSD
 Group:		System/Libraries
 Url:		http://mono-project.com/Mono_Zeroconf
