@@ -4,7 +4,7 @@ Version:	0.9.0
 Release:	17
 License:	BSD
 Group:		System/Libraries
-Url:		http://mono-project.com/Mono_Zeroconf
+Url:		https://mono-project.com/Mono_Zeroconf
 Source0:	http://download.banshee-project.org/mono-zeroconf/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	monodoc
